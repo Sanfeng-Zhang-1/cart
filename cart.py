@@ -64,7 +64,7 @@ class Cart(object):
             for name in self.items:
                 print(f'商品名称：{name}，商品价格：{self.items[name][0]}，商品数量：{self.items[name][1]}')
         else:
-            print('哎呀 没东西呢！！🤭')
+            print('哎呀 没东西呢！！🤭😀')
 
     def run(self):
         print('==============================😀购物车😀=======================================')
