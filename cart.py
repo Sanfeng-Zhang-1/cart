@@ -11,8 +11,7 @@
 
 
 class Cart(object):
-
-
+    """"""
     def __init__(self):
         self.items = {}
         self.decode()
@@ -29,7 +28,6 @@ class Cart(object):
             val = self.items.items()
             for key, value in val:
                 f.write(f'{key} : {value[0]} : {value[1]}\n')
-
 
     def add_to_cart(self):
         name = input('请输入商品名称：').strip()
